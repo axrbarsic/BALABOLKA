@@ -1,0 +1,18 @@
+{
+  "name": "balabolka-proxy",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-04-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "env": {
+    "staging": {
+      "name": "balabolka-proxy-staging"
+    },
+    "production": {
+      "name": "balabolka-proxy"
+    }
+  }
+}

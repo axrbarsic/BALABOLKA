@@ -6,19 +6,78 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		09BC8C39184B34D1463BA0B1 /* LibraryRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ACB0068135B0A703E118E6 /* LibraryRepositoryTests.swift */; };
+		09E30CDA3373BBC4578887DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0754FCD77ECB4E53130A2A /* Foundation.framework */; };
+		1989C28439549CEC8E4831DE /* ProxyClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7320CABDFDE6923FA81381BC /* ProxyClientTests.swift */; };
+		886EE2EE21B06657C4CF95B8 /* BalabolkaPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB556EEDDADFAF6F941E16E /* BalabolkaPerformanceTests.swift */; };
+		A3AA8EE4BA8792A41DDBBF22 /* BalabolkaTestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239AAFCDF464CDD51DD4368 /* BalabolkaTestSupport.swift */; };
+		B4DEA2A6EBDC8693BAA035B4 /* WaveformPipelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E961BFB0812AC1F6FAB0F3 /* WaveformPipelineTests.swift */; };
+		C972A51D08D24B2A9BF9384E /* LongFormPipelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F6D1D61B94A26B5743C2F /* LongFormPipelineTests.swift */; };
+		C346BAC3871668929E49516D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0754FCD77ECB4E53130A2A /* Foundation.framework */; };
+		C3AA89DB0A53EE14AE6CC100 /* BalabolkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C89C3FDFDE04F5A4872097 /* BalabolkaUITests.swift */; };
+		F663E1FB7A9BC60001184AB1 /* PlaybackAudioSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7D3A1820F4CAA85D7011E2 /* PlaybackAudioSessionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		066FC16135BFE0EFBDD9860B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6A1AD02F95E1130019C3CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6A1AD72F95E1130019C3CF;
+			remoteInfo = BALABOLKA;
+		};
+		204B5A48E3BE9E01F4469409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6A1AD02F95E1130019C3CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6A1AD72F95E1130019C3CF;
+			remoteInfo = BALABOLKA;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2D0754FCD77ECB4E53130A2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36C89C3FDFDE04F5A4872097 /* BalabolkaUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BalabolkaUITests.swift; path = BalabolkaUITests.swift; sourceTree = "<group>"; };
+		5FF34767E0C137D338358304 /* BALABOLKATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BALABOLKATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E961BFB0812AC1F6FAB0F3 /* WaveformPipelineTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaveformPipelineTests.swift; path = WaveformPipelineTests.swift; sourceTree = "<group>"; };
+		7320CABDFDE6923FA81381BC /* ProxyClientTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProxyClientTests.swift; path = ProxyClientTests.swift; sourceTree = "<group>"; };
+		8E7D3A1820F4CAA85D7011E2 /* PlaybackAudioSessionTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaybackAudioSessionTests.swift; path = PlaybackAudioSessionTests.swift; sourceTree = "<group>"; };
+		9239AAFCDF464CDD51DD4368 /* BalabolkaTestSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BalabolkaTestSupport.swift; path = BalabolkaTestSupport.swift; sourceTree = "<group>"; };
+		AA1F6D1D61B94A26B5743C2F /* LongFormPipelineTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LongFormPipelineTests.swift; path = LongFormPipelineTests.swift; sourceTree = "<group>"; };
+		B92F9CB24AE1A1B6F677629B /* BALABOLKAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BALABOLKAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB556EEDDADFAF6F941E16E /* BalabolkaPerformanceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BalabolkaPerformanceTests.swift; path = BalabolkaPerformanceTests.swift; sourceTree = "<group>"; };
+		D5ACB0068135B0A703E118E6 /* LibraryRepositoryTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LibraryRepositoryTests.swift; path = LibraryRepositoryTests.swift; sourceTree = "<group>"; };
 		FA6A1AD82F95E1130019C3CF /* BALABOLKA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BALABOLKA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FA6A1ADA2F95E1130019C3CF /* BALABOLKA */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = BALABOLKA;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8420C00317A235BB8E49CABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C346BAC3871668929E49516D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A6379227321F73DB267689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E30CDA3373BBC4578887DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA6A1AD52F95E1130019C3CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,11 +88,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B391C054C6953A180572EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D0754FCD77ECB4E53130A2A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4DFB7F798AC96B5F3CE98E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14B391C054C6953A180572EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59A526535F00DC0EFB5E9218 /* BALABOLKATests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB556EEDDADFAF6F941E16E /* BalabolkaPerformanceTests.swift */,
+				9239AAFCDF464CDD51DD4368 /* BalabolkaTestSupport.swift */,
+				D5ACB0068135B0A703E118E6 /* LibraryRepositoryTests.swift */,
+				AA1F6D1D61B94A26B5743C2F /* LongFormPipelineTests.swift */,
+				8E7D3A1820F4CAA85D7011E2 /* PlaybackAudioSessionTests.swift */,
+				7320CABDFDE6923FA81381BC /* ProxyClientTests.swift */,
+				72E961BFB0812AC1F6FAB0F3 /* WaveformPipelineTests.swift */,
+			);
+			name = BALABOLKATests;
+			path = BALABOLKATests;
+			sourceTree = "<group>";
+		};
+		961B6A5B32B9C784CEF77AE1 /* BALABOLKAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36C89C3FDFDE04F5A4872097 /* BalabolkaUITests.swift */,
+			);
+			name = BALABOLKAUITests;
+			path = BALABOLKAUITests;
+			sourceTree = "<group>";
+		};
 		FA6A1ACF2F95E1130019C3CF = {
 			isa = PBXGroup;
 			children = (
 				FA6A1ADA2F95E1130019C3CF /* BALABOLKA */,
 				FA6A1AD92F95E1130019C3CF /* Products */,
+				4DFB7F798AC96B5F3CE98E01 /* Frameworks */,
+				59A526535F00DC0EFB5E9218 /* BALABOLKATests */,
+				961B6A5B32B9C784CEF77AE1 /* BALABOLKAUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				FA6A1AD82F95E1130019C3CF /* BALABOLKA.app */,
+				5FF34767E0C137D338358304 /* BALABOLKATests.xctest */,
+				B92F9CB24AE1A1B6F677629B /* BALABOLKAUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +152,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		50F33E134DB57255D0B3D7C8 /* BALABOLKATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986014D6ED9599B6F2A6AD16 /* Build configuration list for PBXNativeTarget "BALABOLKATests" */;
+			buildPhases = (
+				5FD783ACBE67D728A04253AA /* Sources */,
+				E4A6379227321F73DB267689 /* Frameworks */,
+				3CC88470775198C78AF774BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C856CEF1280699975E6D2C62 /* PBXTargetDependency */,
+			);
+			name = BALABOLKATests;
+			productName = BALABOLKATests;
+			productReference = 5FF34767E0C137D338358304 /* BALABOLKATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		900EE1D5EB4AC935A9EEB5EA /* BALABOLKAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551317478568AA14C618B4E5 /* Build configuration list for PBXNativeTarget "BALABOLKAUITests" */;
+			buildPhases = (
+				5C133C32F810F34C301FEDF9 /* Sources */,
+				8420C00317A235BB8E49CABE /* Frameworks */,
+				B24E5AAC21AFA33F51D60775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C029F6ABD7FD69CC3815323 /* PBXTargetDependency */,
+			);
+			name = BALABOLKAUITests;
+			productName = BALABOLKAUITests;
+			productReference = B92F9CB24AE1A1B6F677629B /* BALABOLKAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		FA6A1AD72F95E1130019C3CF /* BALABOLKA */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA6A1AE32F95E1150019C3CF /* Build configuration list for PBXNativeTarget "BALABOLKA" */;
@@ -64,8 +204,6 @@
 				FA6A1ADA2F95E1130019C3CF /* BALABOLKA */,
 			);
 			name = BALABOLKA;
-			packageProductDependencies = (
-			);
 			productName = BALABOLKA;
 			productReference = FA6A1AD82F95E1130019C3CF /* BALABOLKA.app */;
 			productType = "com.apple.product-type.application";
@@ -100,11 +238,27 @@
 			projectRoot = "";
 			targets = (
 				FA6A1AD72F95E1130019C3CF /* BALABOLKA */,
+				50F33E134DB57255D0B3D7C8 /* BALABOLKATests */,
+				900EE1D5EB4AC935A9EEB5EA /* BALABOLKAUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3CC88470775198C78AF774BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24E5AAC21AFA33F51D60775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA6A1AD62F95E1130019C3CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +269,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5C133C32F810F34C301FEDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AA89DB0A53EE14AE6CC100 /* BalabolkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD783ACBE67D728A04253AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886EE2EE21B06657C4CF95B8 /* BalabolkaPerformanceTests.swift in Sources */,
+				A3AA8EE4BA8792A41DDBBF22 /* BalabolkaTestSupport.swift in Sources */,
+				09BC8C39184B34D1463BA0B1 /* LibraryRepositoryTests.swift in Sources */,
+				C972A51D08D24B2A9BF9384E /* LongFormPipelineTests.swift in Sources */,
+				F663E1FB7A9BC60001184AB1 /* PlaybackAudioSessionTests.swift in Sources */,
+				1989C28439549CEC8E4831DE /* ProxyClientTests.swift in Sources */,
+				B4DEA2A6EBDC8693BAA035B4 /* WaveformPipelineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA6A1AD42F95E1130019C3CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +300,106 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2C029F6ABD7FD69CC3815323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BALABOLKA;
+			target = FA6A1AD72F95E1130019C3CF /* BALABOLKA */;
+			targetProxy = 204B5A48E3BE9E01F4469409 /* PBXContainerItemProxy */;
+		};
+		C856CEF1280699975E6D2C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BALABOLKA;
+			target = FA6A1AD72F95E1130019C3CF /* BALABOLKA */;
+			targetProxy = 066FC16135BFE0EFBDD9860B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		81BB8B475CDD6DB80C0DB25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6MW4855LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AXR.BALABOLKATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BALABOLKA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BALABOLKA";
+				TEST_TARGET_NAME = BALABOLKA;
+			};
+			name = Debug;
+		};
+		A59432C8301DA6D742A789D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6MW4855LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				PRODUCT_BUNDLE_IDENTIFIER = AXR.BALABOLKAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = BALABOLKA;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC078F6FEB6005F50E8E0CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6MW4855LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AXR.BALABOLKATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BALABOLKA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BALABOLKA";
+				TEST_TARGET_NAME = BALABOLKA;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77F0B9C1B2D2261F72CE132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6MW4855LU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				PRODUCT_BUNDLE_IDENTIFIER = AXR.BALABOLKAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = BALABOLKA;
+			};
+			name = Debug;
+		};
 		FA6A1AE12F95E1150019C3CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -254,6 +529,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "BALABOLKA сохраняет готовые видео в Фото по твоей команде.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -262,26 +539,21 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AXR.BALABOLKA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,6 +570,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "BALABOLKA сохраняет готовые видео в Фото по твоей команде.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -306,32 +580,45 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AXR.BALABOLKA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		551317478568AA14C618B4E5 /* Build configuration list for PBXNativeTarget "BALABOLKAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59432C8301DA6D742A789D1 /* Release */,
+				F77F0B9C1B2D2261F72CE132 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986014D6ED9599B6F2A6AD16 /* Build configuration list for PBXNativeTarget "BALABOLKATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC078F6FEB6005F50E8E0CE8 /* Release */,
+				81BB8B475CDD6DB80C0DB25E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA6A1AD32F95E1130019C3CF /* Build configuration list for PBXProject "BALABOLKA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
